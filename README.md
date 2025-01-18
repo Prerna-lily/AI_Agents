@@ -21,3 +21,30 @@ Features: Summarizes financial comparisons concisely.
 Team Functionality:
 
 The agents collaborate under a unified Agent Team structure, which assigns roles and merges results into a single coherent output.
+
+Libraries and Dependencies:
+Install the required dependencies using pip:
+
+bash
+```
+pip install -r requirements.txt
+```
+
+Agent Team
+```
+python agents_team.py
+```
+
+Troubleshooting
+Environment Variable Errors:
+
+Ensure .env is correctly set up and accessible.
+Dependency Issues:
+
+Verify all required libraries are installed via pip install -r requirements.txt.
+Model Initialization Errors:
+
+Confirm that the Groq model ID (llama-3.3-70b-versatile) is valid and supported.
+Tool Errors:
+
+Check API limits and ensure DuckDuckGo and YFinance tools are functioning.
